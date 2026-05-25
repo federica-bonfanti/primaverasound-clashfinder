@@ -58,7 +58,7 @@ function App() {
     <div style={{
       position: 'absolute', inset: 0, background: '#0a0a0a', color: '#fff',
       overflow: 'hidden', display: 'flex', flexDirection: 'column',
-      paddingTop: 62,
+      paddingTop: 20,
     }}>
       <BrandBar now={t.now} />
       <div style={{ flex: 1, overflowY: 'auto', overflowX: 'hidden', WebkitOverflowScrolling: 'touch' }}>
